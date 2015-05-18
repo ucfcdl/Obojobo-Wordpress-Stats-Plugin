@@ -1,0 +1,21 @@
+{
+    "name": "obojobo/obo-stats",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ucf_cdl/obojobo": "*"
+    },
+    "authors": [
+        {
+            "name": "Ian Turgeon",
+            "email": "iturgeon@gmail.com"
+        },
+        {
+            "name": "Zach Berry",
+            "email": "zachberry@gmail.com"
+        }
+    ]
+}
