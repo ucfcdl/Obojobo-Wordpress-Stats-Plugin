@@ -4,10 +4,6 @@
     "require": {
         "composer/installers": "~1.0"
     },
-    "minimum-stability": "stable",
-    "require": {
-        "ucf_cdl/obojobo": "*"
-    },
     "authors": [
         {
             "name": "Ian Turgeon",
