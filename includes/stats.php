@@ -13,7 +13,7 @@ $gateway = \AppCfg::URL_WEB . \AppCfg::JSON_GATEWAY;
 
 wp_enqueue_script( 'jquery-ui-datepicker', plugins_url( 'jquery.ui.datepicker.min.js', __FILE__ ));
 wp_enqueue_script('tablesorter', '/../assets/js/jquery.tablesorter.min.js');
-//wp_enqueue_script('tablesorter-pager', '/../assets/js/jquery.tablesorter.pager.js');
+wp_enqueue_script('tablesorter-pager', '/../assets/js/jquery.tablesorter.pager.js');
 
 wp_enqueue_style('jquery-ui', '/wp-content/plugins/obo-stats/css/jquery-ui-1.8.17.custom.css');
 wp_enqueue_style('tablesorter', '/../assets/images/tablesorter/style.css');
